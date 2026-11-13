@@ -171,7 +171,7 @@ There are two general approaches. Pick the one that matches your team's workflow
 
 ### Option A — Universal one-liner (skills CLI)
 
-The [`skills` CLI](https://github.com/vercel-labs/skills) auto-detects installed agents (Claude Code, Codex, Gemini CLI, …) and installs `SKILL.md`-based skills into the right place:
+The `skills` CLI (run via `npx skills`, no global install needed) auto-detects installed agents (Claude Code, Codex, Gemini CLI, …) and installs `SKILL.md`-based skills into the right place:
 
 ```bash
 # Install both skills from this repo (auto-detects local AI agents)
